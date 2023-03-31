@@ -1,5 +1,3 @@
-// gitprofile.config.js
-
 const config = {
   github: {
     username: 'Bamboooz',
@@ -10,6 +8,7 @@ const config = {
       projects: ['bamboooz.github.io'],
     },
   },
+
   social: {
     linkedin: '',
     twitter: '',
@@ -27,10 +26,12 @@ const config = {
     phone: '',
     email: 'bambusixmc@gmail.com',
   },
+
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
   },
+
   skills: [
     'Python',
     'Java',
@@ -39,6 +40,7 @@ const config = {
     'Assembly',
     '.Net'
   ],
+
   themeConfig: {
     defaultTheme: 'dark',
     disableSwitch: false,
