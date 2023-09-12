@@ -91,8 +91,8 @@ const config = {
     },
   },
 
-  footer: `Buy me a coffe <a 
-      class="text-primary" href="https://github.com/Bamboooz"
+  footer: `Buy me a coffee <a 
+      class="text-primary" href="https://www.buymeacoffee.com/Bamboooz"
       target="_blank"
       rel="noreferrer"
     >here</a> ☕.`,

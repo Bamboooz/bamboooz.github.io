@@ -89,7 +89,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
             <div className="flex items-center">
               <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
                 <MdInsertLink className="my-auto" />
-                <span className="capitalize">{item.name}</span>
+                <span>{item.name}</span>
               </div>
             </div>
             <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
