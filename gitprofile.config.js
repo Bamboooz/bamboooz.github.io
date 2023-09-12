@@ -5,7 +5,7 @@ const config = {
     limit: 10,
     exclude: {
       forks: true,
-      projects: ['bamboooz.github.io'],
+      projects: ['bamboooz.github.io', 'cubane-project'],
     },
   },
 
