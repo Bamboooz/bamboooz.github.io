@@ -1,5 +1,6 @@
 import "./App.css";
 import { PiGithubLogo } from "react-icons/pi";
+import { CiCoffeeBean } from "react-icons/ci";
 
 const App = () => {
     const openGithubPage = () => {
@@ -8,28 +9,30 @@ const App = () => {
 
     return (
         <div className="App">
-            <section>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-	        	
-                <div className="text-container">
-                   <p className="username">BAMBOOOZ</p>
-                   <div className="me-container">
-                       <p className="who-am-i">backend developer</p>
-                       <button onClick={openGithubPage} className="github-button">
-                           <PiGithubLogo size={32} />
-                       </button>
-                   </div>
-                </div>
-            </section>
+            {/* stars */}
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+	        
+            <div className="text-container">
+               <p className="username">BAMBOOOZ</p>
+               <div className="me-container">
+                   <p className="who-am-i">backend developer</p>
+                   <button onClick={openGithubPage} className="github-button">
+                       <PiGithubLogo size={32} />
+                   </button>
+                   <button onClick={openGithubPage} className="github-button">
+                       <CiCoffeeBean size={32} />
+                   </button>
+               </div>
+            </div>
         </div>
     );
 }
