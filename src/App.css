@@ -197,11 +197,11 @@ span:nth-child(10) {
     outline: none;
 }
 
-.github-button:hover {
+.page-button:hover {
     color: darkgrey!important;
 }
 
-.github-button:hover:active {
+.page-button:hover:active {
     color: grey!important;
 }
 
