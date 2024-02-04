@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7326434a.css",
+    "main.js": "/static/js/main.3f8fb6c6.js",
+    "static/media/AlphaCentauri.svg": "/static/media/AlphaCentauri.5b32a04e50ea3f761905.svg",
+    "static/media/AlphaCentauri.eot": "/static/media/AlphaCentauri.10a3808e9618dcb34c49.eot",
+    "static/media/AlphaCentauri.ttf": "/static/media/AlphaCentauri.3e1a1f0da3960a0d536f.ttf",
+    "static/media/Alphacentauri.woff": "/static/media/Alphacentauri.b127c3c9829770b8d01c.woff",
+    "static/media/AlphaCentauri.woff2": "/static/media/AlphaCentauri.892d8a50a650e8ca1313.woff2",
+    "index.html": "/index.html",
+    "main.7326434a.css.map": "/static/css/main.7326434a.css.map",
+    "main.3f8fb6c6.js.map": "/static/js/main.3f8fb6c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7326434a.css",
+    "static/js/main.3f8fb6c6.js"
+  ]
+}
