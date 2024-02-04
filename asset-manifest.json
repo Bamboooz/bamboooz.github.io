@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a0afd80.css",
-    "main.js": "/static/js/main.45e9ba9a.js",
+    "main.js": "/static/js/main.98cbfa79.js",
     "static/media/AlphaCentauri.svg": "/static/media/AlphaCentauri.5b32a04e50ea3f761905.svg",
     "static/media/AlphaCentauri.eot": "/static/media/AlphaCentauri.10a3808e9618dcb34c49.eot",
     "static/media/AlphaCentauri.ttf": "/static/media/AlphaCentauri.3e1a1f0da3960a0d536f.ttf",
@@ -9,10 +9,10 @@
     "static/media/AlphaCentauri.woff2": "/static/media/AlphaCentauri.892d8a50a650e8ca1313.woff2",
     "index.html": "/index.html",
     "main.3a0afd80.css.map": "/static/css/main.3a0afd80.css.map",
-    "main.45e9ba9a.js.map": "/static/js/main.45e9ba9a.js.map"
+    "main.98cbfa79.js.map": "/static/js/main.98cbfa79.js.map"
   },
   "entrypoints": [
     "static/css/main.3a0afd80.css",
-    "static/js/main.45e9ba9a.js"
+    "static/js/main.98cbfa79.js"
   ]
 }
