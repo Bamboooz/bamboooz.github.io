@@ -182,7 +182,7 @@ span:nth-child(10) {
     align-items: center;
 }
 
-.github-button {
+.page-button {
     background: transparent;
     height: 32px;
     width: 32px;
@@ -194,6 +194,7 @@ span:nth-child(10) {
     border: 0;
     margin-left: 6px;
     z-index: 99;
+    outline: none;
 }
 
 .github-button:hover {

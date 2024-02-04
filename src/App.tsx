@@ -29,10 +29,10 @@ const App = () => {
                <p className="username">BAMBOOOZ</p>
                <div className="me-container">
                    <p className="who-am-i">backend developer</p>
-                   <button onClick={openGithubPage} className="github-button">
+                   <button onClick={openGithubPage} className="page-button">
                        <PiGithubLogo size={32} />
                    </button>
-                   <button onClick={openBuyMeACoffeePage} className="github-button">
+                   <button onClick={openBuyMeACoffeePage} className="page-button">
                        <CiCoffeeBean size={32} />
                    </button>
                </div>
