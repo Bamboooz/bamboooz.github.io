@@ -7,6 +7,10 @@ const App = () => {
         window.open("https://github.com/Bamboooz", "_blank");
     }
 
+    const openBuyMeACoffeePage = () => {
+        window.open("https://www.buymeacoffee.com/Bamboooz", "_blank"); 
+    }
+
     return (
         <div className="App">
             {/* stars */}
@@ -28,7 +32,7 @@ const App = () => {
                    <button onClick={openGithubPage} className="github-button">
                        <PiGithubLogo size={32} />
                    </button>
-                   <button onClick={openGithubPage} className="github-button">
+                   <button onClick={openBuyMeACoffeePage} className="github-button">
                        <CiCoffeeBean size={32} />
                    </button>
                </div>
