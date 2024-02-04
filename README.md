@@ -1,2 +1,3 @@
-My portfolio, made using [GitProfile](https://github.com/arifszn/gitprofile), which was made by [arifszn](https://github.com/arifszn)
-
+# my website :D
+>The font used in this website is [AlphaCentauri](https://joannavu.gumroad.com/l/iHUgj)<br/>
+>Star animation taken from [here](https://codesandbox.io/p/sandbox/css-shooting-stars-animation)
