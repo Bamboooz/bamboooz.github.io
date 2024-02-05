@@ -28,7 +28,7 @@ const App = () => {
             <div className="text-container">
                <p className="username">BAMBOOOZ</p>
                <div className="me-container">
-                   <p className="who-am-i">backend developer</p>
+                   <p className="who-am-i">web developer</p>
                    <button onClick={openGithubPage} className="page-button">
                        <PiGithubLogo size={32} />
                    </button>
