@@ -2,7 +2,7 @@ html, body, .App {
     width: 100vw;
     height: 100vh;
     background: #141414;
-    overflow: hidden;
+    overflow: hidden!important;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -150,9 +150,13 @@ span:nth-child(10) {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden!important;
 }
 
 .text-container {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -242,7 +246,7 @@ span:nth-child(10) {
     }
 
     .page-button {
-        margin-left: 4px;
+        margin-left: 0!important;
     }
 }
 
@@ -259,8 +263,12 @@ span:nth-child(10) {
         font-size: 12px;
     }
 
-    .page-button {
-        margin-left: 2px;
+    .page-button:first-child {
+        margin-left: -16px!important;
+    }
+    
+    .page-button:last-child {
+        margin-left: -10px!important;
     }
 }
 
