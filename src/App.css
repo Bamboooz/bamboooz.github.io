@@ -6,12 +6,12 @@ body {
 }
 
 html, body, .App {
-    width: 100vw!important;
-    height: 100vh!important;
+    width: 100vw;
+    height: 100vh;
+    background: #141414;
 }
 
 .App {
-    background: #141414;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,9 +149,17 @@ span:nth-child(10) {
     font-display: swap;
 }
 
+.star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .text-container {
-    margin: auto!important;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
 }
 
 .username {
@@ -217,6 +225,46 @@ span:nth-child(10) {
     margin-right: 6px;
     color: #fff;
     z-index: 99;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 750px) {
+    .username {
+        font-size: 44px;
+    }
+
+    .who-am-i {
+        font-size: 20px;
+    }
+
+    .icon {
+        font-size: 18px;
+    }
+
+    .page-button {
+        margin-left: 4px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .username {
+        font-size: 28px;
+    }
+
+    .who-am-i {
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 12px;
+    }
+
+    .page-button {
+        margin-left: 2px;
+    }
 }
 
 @keyframes fadeInAnimation {

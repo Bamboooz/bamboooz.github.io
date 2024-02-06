@@ -14,26 +14,28 @@ const App = () => {
     return (
         <div className="App">
             {/* stars */}
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            <div className="star-container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 	        
             <div className="text-container">
                <p className="username">BAMBOOOZ</p>
                <div className="me-container">
                    <p className="who-am-i">web developer</p>
                    <button onClick={openGithubPage} className="page-button">
-                       <PiGithubLogo size={32} />
+                       <PiGithubLogo className="icon" />
                    </button>
                    <button onClick={openBuyMeACoffeePage} className="page-button">
-                       <CiCoffeeBean size={32} />
+                       <CiCoffeeBean className="icon" />
                    </button>
                </div>
             </div>
