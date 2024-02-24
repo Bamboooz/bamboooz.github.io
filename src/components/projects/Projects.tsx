@@ -26,8 +26,8 @@ const Projects = () => {
             img: <img src={trello} />,
         },
         "octokit.py": {
-            description: "Octokit.py is a simple python library to interact with GitHub v3 API.",
-            url: "https://github.com/Bamboooz/octokit.py",
+            description: "Octokit.ts is a simple typescript library to interact with GitHub v3 API.",
+            url: "https://github.com/Bamboooz/octokit.ts",
             img: <img src={octokit} />,
         },
     };
