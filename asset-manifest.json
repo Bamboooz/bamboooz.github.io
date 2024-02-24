@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58aaa0cd.css",
-    "main.js": "/static/js/main.332a5ecf.js",
+    "main.js": "/static/js/main.8087718a.js",
     "static/media/highlanders.png": "/static/media/highlanders.7912ff11693ebfbcca88.png",
     "static/media/trello.png": "/static/media/trello.4bcf879163fb74559f62.png",
     "static/media/octokit.png": "/static/media/octokit.dfba3dafd556d0ef8267.png",
@@ -13,10 +13,10 @@
     "static/media/AlphaCentauri.woff2": "/static/media/AlphaCentauri.892d8a50a650e8ca1313.woff2",
     "index.html": "/index.html",
     "main.58aaa0cd.css.map": "/static/css/main.58aaa0cd.css.map",
-    "main.332a5ecf.js.map": "/static/js/main.332a5ecf.js.map"
+    "main.8087718a.js.map": "/static/js/main.8087718a.js.map"
   },
   "entrypoints": [
     "static/css/main.58aaa0cd.css",
-    "static/js/main.332a5ecf.js"
+    "static/js/main.8087718a.js"
   ]
 }
