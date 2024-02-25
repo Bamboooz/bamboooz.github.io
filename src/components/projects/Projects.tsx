@@ -7,6 +7,7 @@ import octokit from "../../assets/octokit.png";
 import osc from "../../assets/osc.png";
 import highlanders from "../../assets/highlanders.png";
 import trello from "../../assets/trello.png";
+import github_repo_stats from "../../assets/github-repo-stats.png";
 
 const Projects = () => {
     const projects: { [name: string]: { description: string, url: string, img: React.ReactElement<HTMLImageElement> } } = {
@@ -14,6 +15,11 @@ const Projects = () => {
             description: "Highlanders is a full stack mountaineering forum.",
             url: "https://github.com/Bamboooz/highlanders",
             img: <img src={highlanders} />,
+        },
+        "github-repo-stats": {
+            description: "github-repo-stats is a simple website that allows you to view stats of your desired repository.",
+            url: "https://github.com/Bamboooz/github-repo-stats",
+            img: <img src={github_repo_stats} />,
         },
         "os.c": {
             description: "os.c is an advanced C CLI to fetch real-time hardware information.",
