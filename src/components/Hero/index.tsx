@@ -12,61 +12,62 @@ import { GiMountainClimbing, GiCoffeeCup } from "react-icons/gi";
 import { LuMountainSnow } from "react-icons/lu";
 
 import HeroButton from "../HeroButton";
-import { HobbyIcon, StackIcon } from "../../types/icon";
+import { Icon } from "../../types/icon";
 
-const techStack: StackIcon[] = [
+const techStack: Icon[] = [
     {
         name: "Typescript",
         icon: <SiTypescript />,
-        knowledge: 4,
+        description:
+            "I wrote some Typescript in my life it is pretty cool language ig.",
     },
     {
         name: "React",
         icon: <SiReact />,
-        knowledge: 4,
+        description: "React good framework.",
     },
     {
         name: "Tauri",
         icon: <SiTauri />,
-        knowledge: 4,
+        description: "Tauri good for desktop apps cool cool.",
     },
     {
         name: "TailwindCSS",
         icon: <SiTailwindcss />,
-        knowledge: 4,
+        description: "CSS sucks.",
     },
     {
         name: "HTML",
         icon: <SiHtml5 />,
-        knowledge: 3,
+        description: "HTML is weird.",
     },
     {
         name: "CSS",
         icon: <SiCss3 />,
-        knowledge: 3,
+        description: "CSS sucks, please use TailwindCSS.",
     },
     {
         name: "Rust",
         icon: <SiRust />,
-        knowledge: 2,
+        description: "Rust > C++",
     },
 ];
 
-const hobbies: HobbyIcon[] = [
+const hobbies: Icon[] = [
     {
         name: "Mountaineering",
         icon: <LuMountainSnow />,
-        description: "Idk what to put here",
+        description: "Mountains cool yes.",
     },
     {
         name: "Sport Climbing",
         icon: <GiMountainClimbing />,
-        description: "Idk what to put here",
+        description: "Climbing cool.",
     },
     {
         name: "Coffee & Tea",
         icon: <GiCoffeeCup />,
-        description: "Idk what to put here",
+        description: "Coffee & Tea is good yes yes.",
     },
 ];
 
@@ -84,8 +85,8 @@ const Hero: React.FC = () => {
                     <p className="max-md:text-5xl text-7xl font-alphacentauri">
                         BAMBOOOZ
                     </p>
-                    <p className="max-md:text-xl text-3xl font-alphacentauri ml-[6px]">
-                        WEB DEVELOPER
+                    <p className="max-md:text-xl text-3xl font-alphacentauri ml-[4px]">
+                        FRONTEND DEV
                     </p>
 
                     <div className="flex gap-6 md:hidden">

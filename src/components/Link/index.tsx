@@ -11,7 +11,7 @@ const Link: React.FC<LinkProps> = ({ icon, url, text }) => {
         <a
             href={url}
             target="_blank"
-            className="flex items-center justify-center h-12 gap-2 text-[14px] hover:underline text-neutral-200"
+            className="flex items-center justify-center gap-2 text-[14px] hover:underline text-neutral-200"
         >
             <img src={icon} className="h-6" />
             {text}

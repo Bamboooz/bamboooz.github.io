@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback } from "react";
 
 import Sheet from "../Sheet";
-import { HobbyIcon, StackIcon } from "../../types/icon";
+import { Icon } from "../../types/icon";
 
 interface HeroButtonProps {
-    icons: (StackIcon | HobbyIcon)[];
+    icons: Icon[];
     sheetPosition: "left" | "right";
 }
 

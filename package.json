@@ -1,55 +1,32 @@
 {
-    "name": "portfolio",
-    "version": "0.0.2",
-    "homepage": "https://bamboooz.github.io/",
+    "name": "bamboooz.github.io",
     "private": true,
+    "version": "0.0.3",
+    "type": "module",
+    "homepage": "https://bamboooz.github.io/",
+    "scripts": {
+        "start": "pnpm exec prettier . --write && pnpm exec vite",
+        "build": "pnpm exec tsc -b && pnpm exec vite build",
+        "preview": "pnpm exec vite preview",
+        "deploy": "pnpm exec gh-pages -d dist"
+    },
     "dependencies": {
-        "@testing-library/jest-dom": "^5.17.0",
-        "@testing-library/react": "^13.4.0",
-        "@testing-library/user-event": "^13.5.0",
-        "@types/jest": "^27.5.2",
-        "@types/node": "^16.18.101",
-        "@types/react": "^18.3.3",
-        "@types/react-dom": "^18.3.0",
         "clsx": "^2.1.1",
+        "gh-pages": "^6.1.1",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "react-icons": "^5.2.1",
-        "react-scripts": "5.0.1",
-        "tailwind-merge": "^2.4.0",
-        "typescript": "^4.9.5",
-        "web-vitals": "^2.1.4"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "pretty": "npx prettier --write ."
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+        "tailwind-merge": "^2.4.0"
     },
     "devDependencies": {
-        "prettier": "3.3.3",
-        "gh-pages": "^6.1.1",
-        "tailwindcss": "^3.4.1"
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.1",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.39",
+        "prettier": "^3.3.3",
+        "tailwindcss": "^3.4.6",
+        "typescript": "^5.5.3",
+        "vite": "^5.3.4"
     }
 }
