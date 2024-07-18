@@ -1,19 +1,15 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
 
-import MainPage from "./pages/main/Main";
-import ProjectsPage from "./pages/projects/Projects";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
-import "./App.css";
-import "./animations.css";
-
-const App = () => {
+const App: React.FC = () => {
     return (
-        <Routes>
-            <Route path="/" Component={MainPage} />
-            <Route path="/projects" Component={ProjectsPage} />
-        </Routes>
+        <>
+            <Hero />
+            <Footer />
+        </>
     );
-}
+};
 
 export default App;
