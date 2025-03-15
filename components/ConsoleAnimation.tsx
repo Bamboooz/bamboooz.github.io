@@ -25,7 +25,12 @@ export default function ConsoleAnimation() {
         <span className={cn(!finished && "hidden")}>neofetch</span>
       </div>
 
-      <div className={cn("flex items-start justify-start gap-6", !finished && "hidden")}>
+      <div
+        className={cn(
+          "flex items-start justify-start gap-6",
+          !finished && "hidden"
+        )}
+      >
         <Image
           src="/favicon.png"
           alt="icon"
