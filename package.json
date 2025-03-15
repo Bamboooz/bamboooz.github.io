@@ -1,32 +1,31 @@
 {
-    "name": "bamboooz.github.io",
-    "private": true,
-    "version": "0.0.3",
-    "type": "module",
-    "homepage": "https://bamboooz.github.io/",
-    "scripts": {
-        "start": "pnpm exec prettier . --write && pnpm exec vite",
-        "build": "pnpm exec tsc -b && pnpm exec vite build",
-        "preview": "pnpm exec vite preview",
-        "deploy": "pnpm exec gh-pages -d dist"
-    },
-    "dependencies": {
-        "clsx": "^2.1.1",
-        "gh-pages": "^6.1.1",
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1",
-        "react-icons": "^5.2.1",
-        "tailwind-merge": "^2.4.0"
-    },
-    "devDependencies": {
-        "@types/react": "^18.3.3",
-        "@types/react-dom": "^18.3.0",
-        "@vitejs/plugin-react": "^4.3.1",
-        "autoprefixer": "^10.4.19",
-        "postcss": "^8.4.39",
-        "prettier": "^3.3.3",
-        "tailwindcss": "^3.4.6",
-        "typescript": "^5.5.3",
-        "vite": "^5.3.4"
-    }
+  "name": "bamboooz.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "pretty": "pnpm exec prettier . --write",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.482.0",
+    "next": "15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-typed": "^2.0.12",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "prettier": "3.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
 }
