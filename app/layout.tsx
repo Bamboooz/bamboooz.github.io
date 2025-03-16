@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Mono } from "next/font/google";
+import { IBM_Plex_Mono, Noto_Sans_Mono } from "next/font/google";
 
 import "./styles.css";
 
@@ -7,6 +7,12 @@ const ibmPlexMono = IBM_Plex_Mono({
   weight: ["400", "500"],
   subsets: ["latin"],
   variable: "--ibm-plex-mono",
+});
+
+const notoSansMono = Noto_Sans_Mono({
+  weight: ["400", "500"],
+  subsets: ["latin"],
+  variable: "--noto-sans-mono",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ibmPlexMono.variable} antialiased`}>{children}</body>
+      <body
+        className={`${ibmPlexMono.variable} ${notoSansMono.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

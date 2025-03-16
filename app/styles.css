@@ -18,7 +18,7 @@ body {
   overflow: hidden;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--ibm-plex-mono);
+  font-family: var(--ibm-plex-mono), var(--noto-sans-mono), monospace;
   font-size: 13px;
   font-weight: 500;
 }
